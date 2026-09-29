@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Ejemplo de capas y contenedores</title>
+<style>
+#cabecera {
+    text-align:center;
+    font-size:26px;
+    text-align:center;
+    border: 1px solid black;
+    margin: 10px 10px 10px 40px;
+
+   -webkit-box-shadow: inset 49px -17px 71px -22px rgba(0,0,0,0.49);
+   -moz-box-shadow: inset 49px -17px 71px -22px rgba(0,0,0,0.49);
+   box-shadow: inset 49px -17px 71px -22px rgba(0,0,0,0.49);
+}
+#cuerpo{
+    text-align:center;
+    background-color: green;
+    margin: 10px 10px 10px 10px;
+    color: red;
+    height: 80vh;
+}
+#pie{
+    text-align:center;
+    background-color: red;
+    margin: 0px 10px 0px 10px;
+    color: green;
+    height: 5vh;
+    text-align: center;
+}
+p{
+    maring-top:2px;
+    padding:12px;
+}
+a:hover{
+    text-decoration:none;
+    color: green;
+    text-decoration: underline;
+}
+a:{
+    text-decoration:none;
+    color: gray;
+}
+#texto1{
+    text-align:center;
+    border: 6px solid gray;
+    padding: 12px;
+    width: 80%;
+    margin-left: 8%;
+    background-color: white;
+    color: gray;
+}
+#texto2{
+    text-align:center;
+    border: 6px solid gray;
+    padding: 12px;
+    margin-top: 4px;
+    width: 35%;
+    height: 40vh;
+    margin-left: 8%;
+    background-color: white;
+    color: gray;
+    float: left;
+}
+#texto3{
+    text-align:center;
+    border: 6px solid gray;
+    padding: 12px;
+    margin-top: 4px;
+    width: 35%;
+    height: 40vh;
+    float: left;
+    margin-left: 7%;
+    background-color: white;
+    color: gray;
+}
+#texto4{
+    text-align:center;
+    border: 6px solid gray;
+    padding: 12px;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 25%;
+    background-color: white;
+    color: gray;
+}
+#puntero{
+    cursor:pointer;
+}
+
+
+</style>
+</head>
+<body>
+<div id="cabecera">Cabecera de la pagina</div>
+<div id="cuerpo">Cuerpo de la pagina
+    <p>Cuerpo de la pagina</p>
+    <div Id= "texto1"><span id="puntero">Articulo</span> mas leido </div>
+    <div Id= "texto2"> Articulo en columna 1 </div>
+    <div Id= "texto3"> Articulo en columna 2 </div>
+    <div Id= "texto4"> Articulos anteriores....<a href="#">ver mas<a> </div>
+</div>
+<div id="pie">Pie de la pagina</div>
+</body>
+</html>
